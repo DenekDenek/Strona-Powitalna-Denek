@@ -1,0 +1,112 @@
+*
+{
+    padding: 0px;
+    margin: 0;
+    font-size: 20px;
+  
+}
+#container
+{
+    flex-direction: column;
+    background-image: url("bf 1 back.jpg");
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+img{
+    filter: blur(10px);
+}
+#header
+{
+    font-family: 'Quicksand', sans-serif;
+
+    display: flex;
+   order: 1;
+}
+#content
+{
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    
+    order: 2;   
+}
+#name
+{
+    padding: 10px;
+    font-size: 50px;
+}
+#nav
+{
+    padding: 30px;
+    position: absolute;
+    right: 50px;
+    word-spacing: 30px;
+ 
+}
+
+#opis
+{
+    font-size: 30px;
+    left: 10px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    justify-content: center;
+    align-self: center;   
+    order: 3;
+}
+
+ul :hover{
+    color: aqua;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.5);
+}
+ul ::before
+{
+    
+}
+li
+{
+
+display: inline-block;
+}
+
+#footer
+{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    bottom: 0px;
+    text-align: center;
+    background-color: bisque;
+   font-size: 30px;
+   opacity: 0.5;
+    
+    
+}
+#fot
+{
+font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    bottom: 0px; 
+    text-align: center;
+    font-size: 25px;
+}
+/* Gdy się zmniejsza */
+
+@media screen and (max-width: 600px)
+{
+  li
+  {
+      display: block;
+  }
+}
